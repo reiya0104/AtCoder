@@ -1,4 +1,4 @@
-ll res = 0;
-    // for (int j = 0; j <= 20; ++j) {
-    //     res += dp.at(N - 1).at(j);
-    // }
+if (dp.at(i + 1).at(j) != INF) {
+                //     cout << "dp.at(" << i + 1 << ").at(" << j
+                //          << ") = " << dp.at(i + 1).at(j) << endl;
+                // }
