@@ -65,7 +65,7 @@ int main() {
             // dp.at(i + 1).at(j).first =
             // ceil(dp.at(i).at(j - 1).first * s_v.at(i) / s_v.at(i -
             // 1))であればいい 最大となるのは， dp.at(i + 1).at(j).second =
-            // dp.at(i).at(j - 1).second + a_v.at(i) である．
+            // dp.at(i).at(j - 1).first + a_v.at(i) である．
             if (i - 1 >= 1 && j - 1 >= 0) {
                 if ((dp.at(i).at(j - 1).first * s_v.at(i)) / s_v.at(i - 1) +
                         1 <=
